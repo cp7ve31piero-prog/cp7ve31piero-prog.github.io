@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>StickmanStudio Legal</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@600&display=swap">
+<style>
+/* Layout: una columna de lectura, documento sobrio */
+:root{--bg:#F7F8FA;--fg:#1B1F24;--muted:#5A6270;--line:#DDE1E7;--accent:#2A7F74;
+--display:"Space Grotesk",system-ui,sans-serif;--body:"Inter",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#14171B;--fg:#E8EBEF;--muted:#9AA3AF;--line:#2A3038;--accent:#5CC2B3;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#14171B;--fg:#E8EBEF;--muted:#9AA3AF;--line:#2A3038;--accent:#5CC2B3;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font:16px/1.65 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:40px 64px}
+main{max-width:68ch;margin:0 auto;display:grid;gap:40px}
+h1,h2{font-family:var(--display);text-wrap:balance;margin:0}
+h1{font-size:1.9rem}h2{font-size:1.35rem;margin-bottom:8px}
+nav{display:flex;flex-wrap:wrap;gap:16px}
+a{color:var(--accent)}
+section{border-top:1px solid var(--line);padding-top:28px}
+.meta{color:var(--muted);font-size:.9rem;margin:4px 0 0}
+p,li{margin:0 0 10px}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>StickmanStudio Uploader</h1>
+<p class="meta">Last updated: November 12, 2026</p>
+<nav><a href="#terms">Terms of Service</a><a href="#privacy">Privacy Policy</a></nav>
+</header>
+
+<section id="terms">
+<h2>Terms of Service</h2>
+<p>StickmanStudio Uploader ("the App") is a personal, non-commercial tool operated by its owner to upload the owner's own original animated short videos to the owner's own TikTok and YouTube accounts.</p>
+<ul>
+<li>The App is not offered to the public. Only the owner's own accounts are connected to it.</li>
+<li>All videos uploaded through the App are original content created by the owner. The owner is responsible for complying with TikTok's Community Guidelines and Terms of Service.</li>
+<li>The App only acts after the owner authorizes it through TikTok's official login, and the owner can revoke that access at any time from TikTok's settings.</li>
+<li>The App is provided "as is", without warranties of any kind.</li>
+<li>These terms may be updated; the date above shows the latest version.</li>
+</ul>
+</section>
+
+<section id="privacy">
+<h2>Privacy Policy</h2>
+<p>The App is used only by its owner. It does not collect data from other people.</p>
+<ul>
+<li><strong>Data accessed:</strong> basic profile information of the owner's TikTok account (such as display name and account ID) and the permission to upload videos, granted through TikTok Login Kit.</li>
+<li><strong>Use:</strong> this data is used only to upload the owner's videos to the owner's account.</li>
+<li><strong>Storage:</strong> access tokens are stored locally on the owner's computer. They are not sold, shared or sent to third parties.</li>
+<li><strong>Deletion:</strong> the owner can delete the local tokens at any time and revoke access in TikTok's settings under "Security and permissions".</li>
+<li><strong>Contact:</strong> questions can be sent through the contact email registered in the developer's TikTok for Developers profile.</li>
+</ul>
+</section>
+</main>
+</body>
+
+</html>
